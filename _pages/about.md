@@ -12,7 +12,7 @@ profile:
     <p>jackfterry20@gmail.com</p>
     <p><a href='/assets/pdf/cv.pdf'>Curriculum Vitae</a></p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
