@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Research Associate, <a href='https://www.bostonfed.org'>Federal Reserve Bank of Boston</a>
+subtitle:
 
 profile:
   align: right
