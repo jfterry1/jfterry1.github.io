@@ -25,3 +25,5 @@ latest_posts:
 I am a Research Associate at the [Federal Reserve Bank of Boston](https://www.bostonfed.org), where my research focuses on household decision making, labor, and health economics. My prior research experience spans medical physics, where I worked on modeling radiation dose distribution in tumor treatment, and economics, with work in economic history and labor. I am currently pursuing a career in academic economics through PhD applications.
 
 Outside of research, I enjoy watching sports, making music, and running.
+
+*My views do not represent those of the Federal Reserve.*
