@@ -7,3 +7,5 @@ category: research
 ---
 
 This project examines the relationship between macroeconomic fluctuations and health outcomes, focusing on mortality and the business cycle in a developed economy context. Work in progress.
+
+[PDF](/assets/pdf/main.pdf)
