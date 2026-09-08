@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Recessions and Health in a Developed Economy: Mortality and Business Cycles"
+title: "Do Recessions Save Lives? Mortality, Persistence, and the Welfare Cost of Business Cycles"
 description: Work in progress.
 importance: 2
 category: research
