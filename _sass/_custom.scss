@@ -57,7 +57,6 @@ html body .post-title {
   font-family: $font-display;
   font-weight: 500;
   letter-spacing: -0.01em;
-  font-variation-settings: "opsz" 96;
 }
 
 html body h2 {
@@ -247,6 +246,25 @@ article a,
   color: var(--global-text-color-light);
 }
 
+.social {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--global-divider-color);
+}
+
+html body .social .contact-icons {
+  font-size: 1.5rem;
+
+  a {
+    margin: 0 0.5rem;
+  }
+}
+
+.social .contact-note {
+  font-size: 0.9rem;
+  color: var(--global-text-color-light);
+}
+
 .social .contact-icons a {
   color: var(--global-text-color-light);
 
@@ -311,9 +329,26 @@ article a,
 .publications {
   h2.bibliography {
     font-family: $font-display;
+    font-size: 1.3rem;
+    text-align: left;
     color: var(--global-text-color-light);
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
+    margin-top: 0;
+  }
+
+  ol.bibliography li {
+    margin-bottom: 1.4rem;
+  }
+
+  ol.bibliography .abbr:empty,
+  ol.bibliography .abbr:not(:has(*)) {
+    display: none;
+  }
+
+  ol.bibliography .abbr:not(:has(*)) + .col-sm-8 {
+    flex: 0 0 100%;
+    max-width: 100%;
   }
 
   .title {

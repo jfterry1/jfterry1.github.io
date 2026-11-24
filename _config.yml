@@ -201,6 +201,11 @@ kramdown:
 include: ["_pages"]
 exclude:
   - al-folio-upgrade-report.md
+  - AGENTS.md
+  - CLAUDE.md
+  - requirements.txt
+  - test/
+  - .agents/
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
