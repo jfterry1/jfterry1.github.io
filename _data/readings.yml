@@ -1,0 +1,51 @@
+# Reading log — shown on the "reading" tab (/reading/).
+#
+# To add a paper, copy this block to the TOP of the list and fill it in:
+#
+# - title: "Paper title"
+#   authors: "First Author, Second Author"
+#   venue: "Journal or working paper series"   # e.g. "NBER Working Paper 12345"
+#   year: 2025                                 # publication year
+#   link: https://...
+#   read: 2026-11                              # year-month you read it (YYYY-MM)
+#   tags: [labor, health]                      # lowercase; reuse existing tags where you can
+#   note: >
+#     One to three sentences in your own words: what stuck with you.
+#
+# Entries are sorted and grouped by `read` automatically, so order here doesn't matter.
+
+- title: "Recessions, Mortality, and Migration Bias: Evidence from the Lancashire Cotton Famine"
+  authors: "Vellore Arthi, Brian Beach, W. Walker Hanlon"
+  venue: "American Economic Journal: Applied Economics 14(2)"
+  year: 2022
+  link: https://www.aeaweb.org/articles?id=10.1257/app.20190131
+  read: 2026-08
+  tags: [health, business cycles, economic history]
+  note: >
+    Uses the cotton shortage from the U.S. Civil War as a downturn in Lancashire and shows that
+    out-migration from hard-hit areas biases standard estimates. After correcting for it, the
+    recession raised mortality among cotton households, with spillovers to local service workers.
+
+- title: "Lives vs. Livelihoods: The Impact of the Great Recession on Mortality and Welfare"
+  authors: "Amy Finkelstein, Matthew J. Notowidigdo, Frank Schilbach, Jonathan Zhang"
+  venue: "NBER Working Paper 32110"
+  year: 2024
+  link: https://www.nber.org/papers/w32110
+  read: 2025-10
+  tags: [health, business cycles]
+  note: >
+    Commuting zones hit harder by the Great Recession saw age-adjusted mortality fall by about
+    2.3%, an effect that lasted at least a decade and was concentrated among less-educated adults.
+    Much of it runs through lower air pollution, which meaningfully lowers the welfare cost of recessions.
+
+- title: "Generative AI as Seniority-Biased Technological Change: Evidence from U.S. Résumé and Job Posting Data"
+  authors: "Seyed M. Hosseini, Guy Lichtinger"
+  venue: "SSRN Working Paper"
+  year: 2025
+  link: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5425555
+  read: 2025-09
+  tags: [labor, ai & technology]
+  note: >
+    Résumé data on tens of millions of workers, with firm GenAI adoption flagged by "GenAI
+    integrator" job postings. After adoption, junior employment falls sharply relative to
+    non-adopters while senior employment holds up.

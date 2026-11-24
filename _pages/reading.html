@@ -1,0 +1,83 @@
+---
+layout: page
+title: reading
+permalink: /reading/
+description: A running log of economics papers I've read recently, with a short note on what stuck with me.
+nav: true
+nav_order: 4
+---
+
+{% assign readings = site.data.readings | sort: 'read' | reverse %}
+{% assign all_tags = site.data.readings | map: 'tags' | join: '|' | split: '|' | uniq | sort %}
+
+<div class="reading-log">
+  <div class="reading-toolbar">
+    <p class="reading-count"><span id="reading-shown">{{ readings.size }}</span> papers</p>
+    <div class="reading-filters" role="group" aria-label="Filter by field">
+      <button type="button" class="reading-chip is-active" data-filter="all">all</button>
+      {% for tag in all_tags %}
+        <button type="button" class="reading-chip" data-filter="{{ tag | slugify }}">{{ tag }}</button>
+      {% endfor %}
+    </div>
+  </div>
+
+  {% assign months = readings | group_by: 'read' %}
+  {% for month in months %}
+    <section class="reading-month">
+      <h2 class="reading-month-label">{{ month.name | append: '-01' | date: '%B %Y' }}</h2>
+      <ol class="reading-list">
+        {% for paper in month.items %}
+          <li class="reading-item" data-tags="{% for t in paper.tags %}{{ t | slugify }} {% endfor %}">
+            <h3 class="reading-title">
+              {% if paper.link %}
+                <a href="{{ paper.link }}" target="_blank" rel="noopener">{{ paper.title }}</a>
+              {% else %}
+                {{ paper.title }}
+              {% endif %}
+            </h3>
+            <p class="reading-meta">
+              {{ paper.authors }}
+              <span class="reading-sep">·</span>
+              <em>{{ paper.venue }}</em>{% if paper.year %}, {{ paper.year }}{% endif %}
+            </p>
+            {% if paper.note %}
+              <p class="reading-note">{{ paper.note }}</p>
+            {% endif %}
+            {% if paper.tags %}
+              <p class="reading-tags">
+                {% for t in paper.tags %}<span class="reading-tag">{{ t }}</span>{% endfor %}
+              </p>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ol>
+    </section>
+  {% endfor %}
+</div>
+
+<script>
+  (function () {
+    var chips = document.querySelectorAll(".reading-chip");
+    var items = document.querySelectorAll(".reading-item");
+    var months = document.querySelectorAll(".reading-month");
+    var shown = document.getElementById("reading-shown");
+    chips.forEach(function (chip) {
+      chip.addEventListener("click", function () {
+        var f = chip.getAttribute("data-filter");
+        chips.forEach(function (c) {
+          c.classList.toggle("is-active", c === chip);
+        });
+        var n = 0;
+        items.forEach(function (it) {
+          var match = f === "all" || (" " + it.getAttribute("data-tags") + " ").indexOf(" " + f + " ") !== -1;
+          it.hidden = !match;
+          if (match) n++;
+        });
+        months.forEach(function (m) {
+          m.hidden = m.querySelectorAll(".reading-item:not([hidden])").length === 0;
+        });
+        shown.textContent = n;
+      });
+    });
+  })();
+</script>

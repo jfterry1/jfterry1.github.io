@@ -1,0 +1,482 @@
+/*******************************************************************************
+ * Site-specific styles for Jack Terry's site.
+ * Loaded last from assets/css/main.scss so these win over the theme defaults.
+ ******************************************************************************/
+
+$font-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+$font-display: "Fraunces", Georgia, "Times New Roman", serif;
+
+// ---------------------------------------------------------------------------
+// Color tokens
+// ---------------------------------------------------------------------------
+
+:root {
+  --global-bg-color: #fbfaf6;
+  --global-card-bg-color: #ffffff;
+  --global-text-color: #1d2125;
+  --global-text-color-light: #646b73;
+  --global-theme-color: #0e6b5a;
+  --global-hover-color: #0e6b5a;
+  --global-divider-color: rgba(29, 33, 37, 0.1);
+  --global-code-bg-color: rgba(14, 107, 90, 0.06);
+  --jt-accent-soft: rgba(14, 107, 90, 0.09);
+  --jt-accent-line: rgba(14, 107, 90, 0.35);
+}
+
+html[data-theme="dark"] {
+  --global-bg-color: #14171a;
+  --global-card-bg-color: #1b1f23;
+  --global-text-color: #e3e6e8;
+  --global-text-color-light: #9aa3ab;
+  --global-theme-color: #5ec8ae;
+  --global-hover-color: #5ec8ae;
+  --global-divider-color: rgba(255, 255, 255, 0.1);
+  --global-code-bg-color: rgba(94, 200, 174, 0.08);
+  --jt-accent-soft: rgba(94, 200, 174, 0.12);
+  --jt-accent-line: rgba(94, 200, 174, 0.4);
+}
+
+// ---------------------------------------------------------------------------
+// Typography
+// ---------------------------------------------------------------------------
+
+html body {
+  font-family: $font-body;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.65;
+  color: var(--global-text-color);
+  background-color: var(--global-bg-color);
+  -webkit-font-smoothing: antialiased;
+}
+
+html body h1,
+html body h2,
+html body h3,
+html body .post-title {
+  font-family: $font-display;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  font-variation-settings: "opsz" 96;
+}
+
+html body h2 {
+  font-size: 1.6rem;
+}
+
+html body h3 {
+  font-size: 1.2rem;
+}
+
+.post-header {
+  margin-bottom: 2rem;
+
+  .post-title {
+    font-size: 2.6rem;
+    line-height: 1.1;
+    margin-bottom: 0.4rem;
+  }
+
+  .post-description,
+  .desc {
+    color: var(--global-text-color-light);
+    font-size: 1.05rem;
+    margin-bottom: 0;
+  }
+}
+
+article a,
+.post a,
+.reading-log a {
+  color: var(--global-theme-color);
+  text-decoration: underline;
+  text-decoration-color: var(--jt-accent-line);
+  text-underline-offset: 0.18em;
+  text-decoration-thickness: 1px;
+  transition: text-decoration-color 0.15s ease;
+
+  &:hover {
+    color: var(--global-theme-color);
+    text-decoration-color: currentColor;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Navbar
+// ---------------------------------------------------------------------------
+
+.navbar {
+  opacity: 1;
+  background-color: color-mix(in srgb, var(--global-bg-color) 92%, transparent) !important;
+  backdrop-filter: saturate(140%) blur(8px);
+
+  .navbar-brand.title {
+    font-family: $font-display;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: var(--global-text-color);
+
+    .font-weight-bold {
+      font-weight: 600;
+    }
+  }
+
+  .nav-link {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--global-text-color-light);
+  }
+
+  .nav-item.active > .nav-link {
+    color: var(--global-theme-color);
+    font-weight: 600;
+  }
+}
+
+.progress-bar {
+  background-color: var(--global-theme-color);
+}
+
+// ---------------------------------------------------------------------------
+// About page
+// ---------------------------------------------------------------------------
+
+.profile {
+  img {
+    border-radius: 10px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06), 0 8px 24px rgba(0, 0, 0, 0.08);
+  }
+
+  .more-info {
+    font-family: $font-body;
+    font-size: 0.9rem;
+    color: var(--global-text-color-light);
+    margin-top: 0.85rem;
+
+    p {
+      display: block;
+      margin: 0.15rem 0;
+    }
+  }
+}
+
+.jt-lede {
+  font-size: 1.12rem;
+  line-height: 1.6;
+}
+
+.jt-interests {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  padding: 0;
+  margin: 1rem 0 1.5rem;
+  list-style: none;
+}
+
+.jt-pill,
+.jt-interests li {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0.2rem 0.65rem;
+  border-radius: 999px;
+  background: var(--jt-accent-soft);
+  color: var(--global-theme-color);
+}
+
+.jt-section-label {
+  font-family: $font-body !important;
+  font-size: 0.75rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--global-text-color-light);
+  margin: 2.2rem 0 0.8rem;
+}
+
+.jt-now {
+  border-left: 3px solid var(--global-theme-color);
+  padding: 0.2rem 0 0.2rem 1rem;
+  margin: 0.5rem 0 1.5rem;
+
+  p {
+    margin: 0.2rem 0;
+  }
+
+  .jt-now-meta {
+    font-size: 0.85rem;
+    color: var(--global-text-color-light);
+  }
+}
+
+.jt-offhours {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 0.75rem;
+  margin: 0.5rem 0 1.5rem;
+}
+
+.jt-offhours-card {
+  background: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 10px;
+  padding: 0.85rem 1rem;
+
+  .jt-offhours-icon {
+    color: var(--global-theme-color);
+    font-size: 1.1rem;
+  }
+
+  h4 {
+    font-family: $font-display;
+    font-size: 1.02rem;
+    font-weight: 500;
+    margin: 0.35rem 0 0.15rem;
+  }
+
+  p {
+    font-size: 0.88rem;
+    color: var(--global-text-color-light);
+    margin: 0;
+  }
+}
+
+.jt-disclaimer {
+  font-size: 0.82rem;
+  color: var(--global-text-color-light);
+}
+
+.social .contact-icons a {
+  color: var(--global-text-color-light);
+
+  &:hover {
+    color: var(--global-theme-color);
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Projects list
+// ---------------------------------------------------------------------------
+
+.jt-projects {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.jt-project {
+  padding: 1.4rem 0;
+  border-bottom: 1px solid var(--global-divider-color);
+
+  &:first-child {
+    padding-top: 0.25rem;
+  }
+
+  h3 {
+    margin: 0 0 0.3rem;
+    line-height: 1.3;
+
+    a {
+      color: var(--global-text-color) !important;
+      text-decoration: none !important;
+
+      &:hover {
+        color: var(--global-theme-color) !important;
+      }
+    }
+  }
+
+  .jt-project-meta {
+    font-size: 0.9rem;
+    color: var(--global-text-color-light);
+    margin: 0 0 0.5rem;
+  }
+
+  .jt-project-summary {
+    margin: 0 0 0.6rem;
+  }
+
+  .jt-project-links a {
+    font-size: 0.85rem;
+    font-weight: 500;
+    margin-right: 0.9rem;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Publications
+// ---------------------------------------------------------------------------
+
+.publications {
+  h2.bibliography {
+    font-family: $font-display;
+    color: var(--global-text-color-light);
+    border-top: 1px solid var(--global-divider-color);
+    padding-top: 1rem;
+  }
+
+  .title {
+    font-weight: 600;
+  }
+
+  .links a.btn {
+    border-color: var(--jt-accent-line);
+    color: var(--global-theme-color);
+    border-radius: 6px;
+
+    &:hover {
+      background: var(--global-theme-color);
+      color: var(--global-bg-color);
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Reading log
+// ---------------------------------------------------------------------------
+
+.reading-toolbar {
+  position: sticky;
+  top: 56px;
+  z-index: 5;
+  background: var(--global-bg-color);
+  padding: 0.5rem 0 0.9rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.reading-count {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--global-text-color-light);
+  margin: 0 0 0.55rem;
+}
+
+.reading-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.reading-chip {
+  font: inherit;
+  font-size: 0.82rem;
+  font-weight: 500;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  border: 1px solid var(--global-divider-color);
+  background: transparent;
+  color: var(--global-text-color-light);
+  cursor: pointer;
+  transition:
+    background 0.15s ease,
+    color 0.15s ease,
+    border-color 0.15s ease;
+
+  &:hover {
+    border-color: var(--jt-accent-line);
+    color: var(--global-theme-color);
+  }
+
+  &.is-active {
+    background: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+    color: var(--global-bg-color);
+  }
+}
+
+.reading-month {
+  margin-top: 1.8rem;
+
+  &[hidden] {
+    display: none;
+  }
+}
+
+html body .reading-month-label {
+  font-family: $font-body;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--global-theme-color);
+  margin: 0 0 0.25rem;
+}
+
+.reading-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.reading-item {
+  padding: 1.1rem 0 1.2rem;
+  border-bottom: 1px solid var(--global-divider-color);
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &[hidden] {
+    display: none;
+  }
+}
+
+html body .reading-title {
+  font-size: 1.15rem;
+  line-height: 1.35;
+  margin: 0 0 0.3rem;
+
+  a {
+    color: var(--global-text-color);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--global-theme-color);
+    }
+  }
+}
+
+.reading-meta {
+  font-size: 0.88rem;
+  color: var(--global-text-color-light);
+  margin: 0 0 0.55rem;
+
+  .reading-sep {
+    margin: 0 0.3rem;
+  }
+}
+
+.reading-note {
+  margin: 0 0 0.6rem;
+  max-width: 68ch;
+}
+
+.reading-tags {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.reading-tag {
+  font-size: 0.74rem;
+  font-weight: 500;
+  padding: 0.1rem 0.55rem;
+  border-radius: 999px;
+  background: var(--jt-accent-soft);
+  color: var(--global-theme-color);
+}
+
+@media (max-width: 575.98px) {
+  .post-header .post-title {
+    font-size: 2.1rem;
+  }
+
+  .reading-toolbar {
+    position: static;
+  }
+}

@@ -4,6 +4,8 @@ title: "Do Recessions Save Lives? Mortality, Persistence, and the Welfare Cost o
 description: Work in progress.
 importance: 2
 category: research
+summary: "How macroeconomic fluctuations shape mortality, and what that implies for the welfare cost of business cycles in a developed economy."
+pdf: /assets/pdf/main.pdf
 ---
 
 This project examines the relationship between macroeconomic fluctuations and health outcomes, focusing on mortality and the business cycle in a developed economy context. Work in progress.
