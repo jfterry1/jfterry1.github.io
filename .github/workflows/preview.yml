@@ -6,6 +6,9 @@ on:
       - overhaul
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -33,8 +36,9 @@ jobs:
         run: |
           npm install -g purgecss
           purgecss -c purgecss.config.js
-      - uses: actions/upload-artifact@v4
+      - name: Push build to preview branch (not served)
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          name: site
-          path: _site
-          retention-days: 3
+          folder: _site
+          branch: preview-build
+          single-commit: true
