@@ -24,15 +24,7 @@ latest_posts:
 
 <p class="jt-lede">I'm a Research Associate at the <a href="https://www.bostonfed.org">Federal Reserve Bank of Boston</a>, where I work on household decision making, labor, and health economics. I'm applying to PhD programs in economics.</p>
 
-<ul class="jt-interests">
-  <li>labor</li>
-  <li>health</li>
-  <li>household decisions</li>
-  <li>business cycles</li>
-  <li>economic history</li>
-</ul>
-
-I took a slightly unusual route here. I started in medical physics, modeling radiation dose distributions in tumor treatment, before moving into economics, with an MSc thesis at the London School of Economics on the 1933 U.S. banking crisis. These days most of my research asks how recessions show up in people's lives: in births, in deaths, and in the welfare cost of the business cycle. You can find that work under [projects](/projects/).
+I took a slightly unusual route here. I started in medical physics with the <a href="https://bertoletlab.mgh.harvard.edu/">Bertolet Lab</a> at Massachusetts General Hospital, modeling radiation dose distributions in tumor treatment, before moving into economics, with an MSc thesis at the London School of Economics on the 1933 U.S. banking crisis. These days most of my research asks how recessions show up in people's lives: in births, in deaths, and in the welfare cost of the business cycle. You can find that work under [projects](/projects/).
 
 {% assign latest = site.data.readings | sort: 'read' | last %}
 {% if latest %}
@@ -44,12 +36,12 @@ I took a slightly unusual route here. I started in medical physics, modeling rad
 </div>
 {% endif %}
 
-<h2 class="jt-section-label">Off the clock</h2>
+<h2 class="jt-section-label">Outside of econ</h2>
 <div class="jt-offhours">
   <div class="jt-offhours-card">
     <i class="fa-solid fa-person-running jt-offhours-icon" aria-hidden="true"></i>
     <h4>Running</h4>
-    <p>Out for a run whenever I can.</p>
+    <p>Training to qualify for the Boston Marathon, chasing a BQ this spring.</p>
   </div>
   <div class="jt-offhours-card">
     <i class="fa-solid fa-music jt-offhours-icon" aria-hidden="true"></i>
@@ -59,7 +51,7 @@ I took a slightly unusual route here. I started in medical physics, modeling rad
   <div class="jt-offhours-card">
     <i class="fa-solid fa-basketball jt-offhours-icon" aria-hidden="true"></i>
     <h4>Sports</h4>
-    <p>Usually have a game on.</p>
+    <p>A fan of everything from football to cycling.</p>
   </div>
 </div>
 
