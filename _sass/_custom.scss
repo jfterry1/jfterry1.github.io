@@ -33,6 +33,9 @@ html[data-theme="dark"] {
   --global-divider-color: rgba(255, 255, 255, 0.1);
   --global-code-bg-color: rgba(94, 200, 174, 0.08);
   --jt-accent-soft: rgba(94, 200, 174, 0.12);
+  --global-footer-bg-color: #0d0f11;
+  --global-footer-text-color: #9aa3ab;
+  --global-footer-link-color: #e3e6e8;
   --jt-accent-line: rgba(94, 200, 174, 0.4);
 }
 
@@ -513,5 +516,11 @@ html body .reading-title {
 
   .reading-toolbar {
     position: static;
+  }
+
+  .profile {
+    max-width: 220px;
+    margin: 0 auto 1rem;
+    float: none !important;
   }
 }
