@@ -182,3 +182,43 @@
     Over the last millennium, cooperation in China was organized around kin-based clans and in
     Europe around self-governing corporations like cities. Morality and institutions reinforced
     each other, sending the two regions down different paths.
+
+# ---- Batch added 2026-11-24 (afternoon) ----
+
+- title: "Praying for Rain"
+  authors: "José-Antonio Espín-Sánchez, Salvador Gil-Guirado, Nicholas Ryan"
+  venue: "Quarterly Journal of Economics"
+  year: 2026
+  link: https://www.nber.org/papers/w31411
+  read: 2026-11
+  tags: [culture, economic history]
+  note: >
+    A religious leader can only win believers by praying for rain where the chance of rain rises the
+    longer a dry spell lasts, so prayers land when rain is most likely anyway. In Murcia, Spain, the
+    church's prayers predict rainfall over two centuries, and ethnic groups facing that kind of rainfall
+    pattern are 47% more likely to pray for rain.
+
+- title: "Labor Market Strength and Declining Community College Enrollment"
+  authors: "Joshua Goodman, Joseph Winkelmann"
+  venue: "NBER Working Paper 34498"
+  year: 2025
+  link: https://www.nber.org/papers/w34498
+  read: 2026-06
+  tags: [education, labor, business cycles]
+  note: >
+    The post-2010 drop in U.S. college enrollment is a community college story, and about a third of it
+    is just colleges being reclassified as four-year. A 1-point rise in local unemployment raises
+    first-time community college enrollment by about 2%, so stronger labor markets explain roughly 60%
+    of the post-Great Recession decline.
+
+- title: "Artificial Intelligence and the Labor Market"
+  authors: "Menaka Hampole, Dimitris Papanikolaou, Lawrence D.W. Schmidt, Bryan Seegmiller"
+  venue: "NBER Working Paper 33509"
+  year: 2025
+  link: https://www.nber.org/papers/w33509
+  read:
+  tags: [labor, ai & technology]
+  note: >
+    Builds task-level measures of AI exposure from 2010 to 2023. Labor demand falls when an occupation's
+    tasks are exposed on average, but rises when the exposure is concentrated in a few tasks, since
+    workers can shift effort elsewhere. Net employment effects are modest because AI-adopting firms grow.
