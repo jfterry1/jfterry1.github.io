@@ -216,9 +216,22 @@
   venue: "NBER Working Paper 33509"
   year: 2025
   link: https://www.nber.org/papers/w33509
-  read:
+  read: 2026-10
   tags: [labor, ai & technology]
   note: >
     Builds task-level measures of AI exposure from 2010 to 2023. Labor demand falls when an occupation's
     tasks are exposed on average, but rises when the exposure is concentrated in a few tasks, since
     workers can shift effort elsewhere. Net employment effects are modest because AI-adopting firms grow.
+
+- title: "Time Travel on Professional Profiles"
+  authors: "Nicholas Bloom, Gideon Moore, Lisa K. Simon, Caelan Wilkie-Rogers"
+  venue: "NBER Working Paper 35546"
+  year: 2026
+  link: https://www.nber.org/papers/w35546
+  read:
+  tags: [labor, ai & technology, data & measurement]
+  note: >
+    Monthly snapshots of Revelio Labs profile data show that about one in five established U.S. LinkedIn
+    users go back and rewrite jobs they have already left, often around a job switch. That makes
+    profile-based skill measures less of a historical record than they look, but the edits also reveal
+    what workers think employers want: AI language surges after 2022 while remote-work and DEI language fade.
