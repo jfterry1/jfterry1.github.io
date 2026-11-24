@@ -49,3 +49,136 @@
     Résumé data on tens of millions of workers, with firm GenAI adoption flagged by "GenAI
     integrator" job postings. After adoption, junior employment falls sharply relative to
     non-adopters while senior employment holds up.
+
+# ---- Batch added 2026-11-24 (read dates to fill in) ----
+
+- title: "Trading Goods for Lives: NAFTA's Mortality Impacts and Implications"
+  authors: "Amy Finkelstein, Matthew J. Notowidigdo, Steven X. Shi"
+  venue: "NBER Working Paper 34855"
+  year: 2026
+  link: https://www.nber.org/papers/w34855
+  read:
+  tags: [health, trade, labor]
+  note: >
+    Areas more exposed to Mexican import competition after NAFTA saw mortality rise for the next
+    15 years, especially among working-age men. The broader lesson: job losses in manufacturing
+    raise local mortality, while non-manufacturing contractions lower it, which helps reconcile
+    the trade-shock and recession literatures.
+
+- title: "Are Recessions Good for Your Health?"
+  authors: "Christopher J. Ruhm"
+  venue: "Quarterly Journal of Economics 115(2)"
+  year: 2000
+  link: https://doi.org/10.1162/003355300554872
+  read:
+  tags: [health, business cycles]
+  note: >
+    The classic state-panel result that mortality is procyclical: total deaths and most causes of
+    death fall when unemployment rises, with suicide the main exception. Healthier behavior when
+    the economy weakens (less smoking and obesity, more exercise) is part of the story.
+
+- title: "Short- and Long-Term Effects of Unemployment on Fertility"
+  authors: "Janet Currie, Hannes Schwandt"
+  venue: "Proceedings of the National Academy of Sciences"
+  year: 2014
+  link: https://www.iza.org/publications/dp9299
+  read:
+  tags: [fertility, business cycles]
+  note: >
+    Follows cohorts of U.S.-born women across 140 million birth records. Unemployment in the early
+    20s cuts fertility in the short run, and the loss grows by age 40 rather than being made up
+    later, driven largely by women who remain childless.
+
+- title: "The Transmission of Women's Fertility, Human Capital, and Work Orientation across Immigrant Generations"
+  authors: "Francine D. Blau, Lawrence M. Kahn, Albert Yung-Hsu Liu, Kerry L. Papps"
+  venue: "Journal of Population Economics 26(2)"
+  year: 2013
+  link: https://www.nber.org/papers/w14388
+  read:
+  tags: [fertility, culture, labor]
+  note: >
+    Second-generation women's fertility, schooling, and labor supply track those of their parents'
+    immigrant generation, and fertility is passed down more strongly than labor supply or education.
+
+- title: "Superstition and Risk Taking: Evidence from \"Zodiac Year\" Beliefs in China"
+  authors: "Raymond Fisman, Wei Huang, Bo Ning, Yue Pan, Jiaping Qiu, Yongxiang Wang"
+  venue: "Management Science 69(9)"
+  year: 2023
+  link: https://doi.org/10.1287/mnsc.2022.4594
+  read:
+  tags: [behavioral, culture]
+  note: >
+    Chinese tradition says your zodiac year (every 12 years from your birth year) brings bad luck.
+    People favor safer investments in their zodiac year, and firms cut risk-taking, R&D, and
+    acquisitions in their chairman's zodiac year.
+
+- title: "Corruption, Norms, and Legal Enforcement: Evidence from Diplomatic Parking Tickets"
+  authors: "Raymond Fisman, Edward Miguel"
+  venue: "Journal of Political Economy 115(6)"
+  year: 2007
+  link: https://www.journals.uchicago.edu/doi/10.1086/527495
+  read:
+  tags: [culture, political economy]
+  note: >
+    UN diplomats in Manhattan had immunity from parking enforcement, so their unpaid tickets reveal
+    norms alone: diplomats from high-corruption countries racked up far more. When New York gained
+    the power to confiscate plates in 2002, violations dropped sharply, so enforcement matters too.
+
+- title: "Why Being Wrong Can Be Right: Magical Warfare Technologies and the Persistence of False Beliefs"
+  authors: "Nathan Nunn, Raul Sanchez de la Sierra"
+  venue: "American Economic Review: Papers & Proceedings"
+  year: 2017
+  link: https://doi.org/10.1257/aer.p20171091
+  read:
+  tags: [culture, development]
+  note: >
+    Bulletproofing spells in eastern Congo are false, but believing in them gets villagers to fight
+    militias together. A belief that is wrong for the individual can be right for the group, which
+    helps explain why it persists.
+
+- title: "On the Origins of Gender Roles: Women and the Plough"
+  authors: "Alberto Alesina, Paola Giuliano, Nathan Nunn"
+  venue: "Quarterly Journal of Economics 128(2)"
+  year: 2013
+  link: https://doi.org/10.1093/qje/qjt005
+  read:
+  tags: [culture, economic history, labor]
+  note: >
+    Societies that historically farmed with the plough, which favored male upper-body strength,
+    have less equal gender norms and lower female labor force participation today. The pattern
+    shows up even among second-generation immigrants in the U.S.
+
+- title: "The Potato's Contribution to Population and Urbanization: Evidence from a Historical Experiment"
+  authors: "Nathan Nunn, Nancy Qian"
+  venue: "Quarterly Journal of Economics 126(2)"
+  year: 2011
+  link: https://doi.org/10.1093/qje/qjr009
+  read:
+  tags: [economic history, development]
+  note: >
+    Uses regional suitability for potatoes and the timing of their arrival from the Americas.
+    The potato accounts for roughly a quarter of Old World population and urbanization growth
+    between 1700 and 1900.
+
+- title: "The Consequences of Radical Reform: The French Revolution"
+  authors: "Daron Acemoglu, Davide Cantoni, Simon Johnson, James A. Robinson"
+  venue: "American Economic Review 101(7)"
+  year: 2011
+  link: https://doi.org/10.1257/aer.101.7.3286
+  read:
+  tags: [economic history, political economy]
+  note: >
+    Parts of Germany occupied by the French got sweeping institutional reforms that broke the power
+    of guilds and old elites. Those areas urbanized faster afterward, especially after 1850.
+
+- title: "The Clan and the Corporation: Sustaining Cooperation in China and Europe"
+  authors: "Avner Greif, Guido Tabellini"
+  venue: "Journal of Comparative Economics 45(1)"
+  year: 2017
+  link: http://www.sciencedirect.com/science/article/pii/S0147596716300981
+  read:
+  tags: [economic history, culture]
+  note: >
+    Over the last millennium, cooperation in China was organized around kin-based clans and in
+    Europe around self-governing corporations like cities. Morality and institutions reinforced
+    each other, sending the two regions down different paths.

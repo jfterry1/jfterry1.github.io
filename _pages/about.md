@@ -26,7 +26,7 @@ latest_posts:
 
 I took a slightly unusual route here. I started in medical physics with the <a href="https://bertoletlab.mgh.harvard.edu/">Bertolet Lab</a> at Massachusetts General Hospital, modeling radiation dose distributions in tumor treatment, before moving into economics, with an MSc thesis at the London School of Economics on the 1933 U.S. banking crisis. These days most of my research asks how recessions show up in people's lives: in births, in deaths, and in the welfare cost of the business cycle. You can find that work under [projects](/projects/).
 
-{% assign latest = site.data.readings | sort: 'read' | last %}
+{% assign latest = site.data.readings | sort: 'read', 'first' | last %}
 {% if latest %}
 
 <h2 class="jt-section-label">Recently read</h2>
