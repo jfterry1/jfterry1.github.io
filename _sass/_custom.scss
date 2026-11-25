@@ -378,6 +378,10 @@ html body .social .contact-icons {
     object-fit: cover;
     object-position: center 35%;
     display: block;
+
+    &.jt-photo-top {
+      object-position: center 15%;
+    }
   }
 }
 
