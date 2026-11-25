@@ -281,7 +281,7 @@ html body .social .contact-icons {
 .jt-flip {
   display: block;
   width: 100%;
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 1 / 1;
   padding: 0;
   border: 0;
   background: transparent;
@@ -376,6 +376,7 @@ html body .social .contact-icons {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center 35%;
     display: block;
   }
 }
@@ -643,6 +644,10 @@ html body .reading-title {
 
   .jt-offhours {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .jt-flip {
+    aspect-ratio: 4 / 5;
   }
 
   .profile {

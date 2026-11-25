@@ -44,7 +44,7 @@ I took a slightly unusual route here. I started in medical physics with the <a h
         <i class="fa-solid fa-person-running jt-offhours-icon" aria-hidden="true"></i>
         <span class="jt-flip-title">Running</span>
         <span class="jt-flip-text">Training to qualify for the Boston Marathon, chasing a BQ this spring.</span>
-        <span class="jt-flip-hint"><i class="fa-solid fa-camera" aria-hidden="true"></i> tap for a photo</span>
+        <span class="jt-flip-hint"><i class="fa-solid fa-camera" aria-hidden="true"></i> see the photo</span>
       </span>
       <span class="jt-flip-face jt-flip-back">
         <img src="/assets/img/outside/running.jpg" alt="Jack holding a first-place plaque with a finisher's medal after the Lake Martin 27-mile race" loading="lazy" width="640" height="800">
@@ -58,7 +58,7 @@ I took a slightly unusual route here. I started in medical physics with the <a h
         <i class="fa-solid fa-music jt-offhours-icon" aria-hidden="true"></i>
         <span class="jt-flip-title">Making music</span>
         <span class="jt-flip-text">Writing and playing music.</span>
-        <span class="jt-flip-hint"><i class="fa-solid fa-camera" aria-hidden="true"></i> tap for a photo</span>
+        <span class="jt-flip-hint"><i class="fa-solid fa-camera" aria-hidden="true"></i> see the photo</span>
       </span>
       <span class="jt-flip-face jt-flip-back">
         <img src="/assets/img/outside/music.jpg" alt="Jack playing bass guitar at a rooftop concert at sunset in Auburn, Alabama" loading="lazy" width="640" height="800">
@@ -72,7 +72,7 @@ I took a slightly unusual route here. I started in medical physics with the <a h
         <i class="fa-solid fa-football jt-offhours-icon" aria-hidden="true"></i>
         <span class="jt-flip-title">Sports</span>
         <span class="jt-flip-text">A fan of everything from football to cycling.</span>
-        <span class="jt-flip-hint"><i class="fa-solid fa-camera" aria-hidden="true"></i> tap for a photo</span>
+        <span class="jt-flip-hint"><i class="fa-solid fa-camera" aria-hidden="true"></i> see the photo</span>
       </span>
       <span class="jt-flip-face jt-flip-back">
         <img src="/assets/img/outside/sports.jpg" alt="Jack with two friends in the stands at Tottenham Hotspur Stadium after a match" loading="lazy" width="640" height="800">
