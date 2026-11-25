@@ -47,8 +47,8 @@ I took a slightly unusual route here. I started in medical physics with the <a h
         <span class="jt-flip-hint"><i class="fa-solid fa-camera" aria-hidden="true"></i> see the photo</span>
       </span>
       <span class="jt-flip-face jt-flip-back">
-        <img src="/assets/img/outside/running.jpg" alt="Jack holding a first-place plaque with a finisher's medal after the Lake Martin 27-mile race" loading="lazy" width="640" height="800">
-        <span class="jt-flip-caption">Lake Martin Ultra – 27-mile winner</span>
+        <img src="/assets/img/outside/running-hof.jpg" alt="Jack and a friend with finisher's medals in the stadium after the Pro Football Hall of Fame Marathon" loading="lazy" width="640" height="800">
+        <span class="jt-flip-caption">Pro Football Hall of Fame Marathon</span>
       </span>
     </span>
   </button>
