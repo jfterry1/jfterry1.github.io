@@ -85,7 +85,7 @@ I took a slightly unusual route here. I started in medical physics with the <a h
       <span class="jt-flip-face jt-flip-front">
         <i class="fa-solid fa-person-skiing jt-offhours-icon" aria-hidden="true"></i>
         <span class="jt-flip-title">Skiing</span>
-        <span class="jt-flip-text">Chasing bluebird days and spring corn snow out West.</span>
+        <span class="jt-flip-text">Spending as many days on the mountain as I can each winter.</span>
         <span class="jt-flip-hint" title="See the photo"><i class="fa-solid fa-camera" aria-hidden="true"></i></span>
       </span>
       <span class="jt-flip-face jt-flip-back">
