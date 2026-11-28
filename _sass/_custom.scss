@@ -214,7 +214,7 @@ article a,
 
 .jt-offhours {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 0.75rem;
   margin: 0.5rem 0 1.5rem;
 }
@@ -361,9 +361,7 @@ html body .social .contact-icons {
   position: absolute;
   left: 1.1rem;
   bottom: 0.9rem;
-  font-size: 0.74rem;
-  font-weight: 500;
-  letter-spacing: 0.04em;
+  font-size: 0.85rem;
   color: var(--global-theme-color);
   opacity: 0.85;
 }
@@ -690,6 +688,12 @@ html body .reading-title {
   border-radius: 999px;
   background: var(--jt-accent-soft);
   color: var(--global-theme-color);
+}
+
+@media (max-width: 767.98px) {
+  .jt-offhours {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 575.98px) {

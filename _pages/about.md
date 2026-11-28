@@ -44,7 +44,7 @@ I took a slightly unusual route here. I started in medical physics with the <a h
         <i class="fa-solid fa-person-running jt-offhours-icon" aria-hidden="true"></i>
         <span class="jt-flip-title">Running</span>
         <span class="jt-flip-text">Training to qualify for the Boston Marathon, chasing a BQ this spring.</span>
-        <span class="jt-flip-hint"><i class="fa-solid fa-camera" aria-hidden="true"></i> see the photo</span>
+        <span class="jt-flip-hint" title="See the photo"><i class="fa-solid fa-camera" aria-hidden="true"></i></span>
       </span>
       <span class="jt-flip-face jt-flip-back">
         <img class="jt-photo-top" src="/assets/img/outside/running-hof2.jpg" alt="Jack and a friend with finisher's medals in the stadium after the Pro Football Hall of Fame Marathon" loading="lazy" width="640" height="800">
@@ -58,7 +58,7 @@ I took a slightly unusual route here. I started in medical physics with the <a h
         <i class="fa-solid fa-music jt-offhours-icon" aria-hidden="true"></i>
         <span class="jt-flip-title">Making music</span>
         <span class="jt-flip-text">Writing and playing music.</span>
-        <span class="jt-flip-hint"><i class="fa-solid fa-camera" aria-hidden="true"></i> see the photo</span>
+        <span class="jt-flip-hint" title="See the photo"><i class="fa-solid fa-camera" aria-hidden="true"></i></span>
       </span>
       <span class="jt-flip-face jt-flip-back">
         <img src="/assets/img/outside/music.jpg" alt="Jack playing bass guitar at a rooftop concert at sunset in Auburn, Alabama" loading="lazy" width="640" height="800">
@@ -72,11 +72,25 @@ I took a slightly unusual route here. I started in medical physics with the <a h
         <i class="fa-solid fa-football jt-offhours-icon" aria-hidden="true"></i>
         <span class="jt-flip-title">Sports</span>
         <span class="jt-flip-text">A fan of everything from football to cycling.</span>
-        <span class="jt-flip-hint"><i class="fa-solid fa-camera" aria-hidden="true"></i> see the photo</span>
+        <span class="jt-flip-hint" title="See the photo"><i class="fa-solid fa-camera" aria-hidden="true"></i></span>
       </span>
       <span class="jt-flip-face jt-flip-back">
         <img src="/assets/img/outside/sports.jpg" alt="Jack with two friends in the stands at Tottenham Hotspur Stadium after a match" loading="lazy" width="640" height="800">
         <span class="jt-flip-caption">Tottenham Hotspur Stadium</span>
+      </span>
+    </span>
+  </button>
+  <button type="button" class="jt-flip" aria-pressed="false" aria-label="Skiing: show photo">
+    <span class="jt-flip-inner">
+      <span class="jt-flip-face jt-flip-front">
+        <i class="fa-solid fa-person-skiing jt-offhours-icon" aria-hidden="true"></i>
+        <span class="jt-flip-title">Skiing</span>
+        <span class="jt-flip-text">Happiest on a bluebird day, ideally with fresh snow.</span>
+        <span class="jt-flip-hint" title="See the photo"><i class="fa-solid fa-camera" aria-hidden="true"></i></span>
+      </span>
+      <span class="jt-flip-face jt-flip-back">
+        <img class="jt-photo-top" src="/assets/img/outside/skiing.jpg" alt="Jack and a friend in ski helmets and goggles at the base of the slopes on a sunny spring day in Beaver Creek, Colorado" loading="lazy" width="640" height="800">
+        <span class="jt-flip-caption">Spring skiing – Beaver Creek, CO</span>
       </span>
     </span>
   </button>
